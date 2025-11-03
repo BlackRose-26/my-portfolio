@@ -25,8 +25,9 @@ export const Project = () => {
                         </span> 
                          ))}
                     </div>
+                    
                     <div className="flex justify-between items-center">
-                        <a href="#" className="text-blue-400 hover:text-blue-300 trasition-colors my-4">
+                        <a href="https://github.com/BlackRose-26/my-portfolio" className="text-blue-400 hover:text-blue-300 trasition-colors my-4">
                             {" "}
                             View Projects → {" "}
                         </a>
@@ -35,7 +36,10 @@ export const Project = () => {
                  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:-blue-500/30 hover: shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-4">Gym Management</h3>
                     <p className="text-gray-400 mb-4">
-                        A web-based application designed to streamline and automate the management of gym operations, including member enrollment, class scheduling, trainer assignments, and payment processing.
+                        A web-based application designed to streamline 
+                        and automate the management of gym operations, 
+                        including member enrollment, class scheduling, 
+                        trainer assignments, and payment processing.
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">            
                          {["HTML5", "CSS3", "JavaScript", "PHP","MySQL"] .map((tech, key) => ( 
